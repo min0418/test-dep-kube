@@ -11,7 +11,7 @@ public class TestDeployKubeApplication {
 
     @RequestMapping("/hello")
     public String getHello() {
-        return "Hello";
+        return "Hello v17";
     }
 
     public static void main(String[] args) {

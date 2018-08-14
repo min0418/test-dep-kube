@@ -13,11 +13,11 @@ spec:
     metadata:
       labels:
         app: test-kube
-        version: v4
+        version: v17
     spec:
       containers:
       - name: test-kube
-        image: docker.sds-act.com/test-dep-kube:4
+        image: docker.sds-act.com/test-dep-kube:17
         ports:
         - containerPort: 9000
       imagePullSecrets:
